@@ -1,0 +1,317 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 15608,
+      "max": [
+        22.445709228515625,
+        4.5372352600097656,
+        2.5582304000854492
+      ],
+      "min": [
+        -22.445709228515625,
+        -4.5372352600097656,
+        -2.5582304000854492
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 187296,
+      "componentType": 5126,
+      "count": 15608,
+      "max": [
+        0.99992787837982178,
+        0.99989855289459229,
+        0.99999713897705078
+      ],
+      "min": [
+        -0.99875462055206299,
+        -0.99990648031234741,
+        -0.99999397993087769
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 15608,
+      "max": [
+        0.99999964237213135,
+        0.99838042259216309,
+        0.9998631477355957,
+        1
+      ],
+      "min": [
+        -0.99999159574508667,
+        -0.99984443187713623,
+        -0.99939954280853271,
+        1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 15608,
+      "max": [
+        0.99891597032546997,
+        0.99455267190933228
+      ],
+      "min": [
+        0.0010973236057907343,
+        0.0010750155197456479
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 89994,
+      "max": [
+        15607
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "3dhdscan (https://sketchfab.com/3dhdscan)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/models/ea5ad74839744adeb7126b6d324cfb45",
+      "title": "Wood Stick 06"
+    },
+    "generator": "Sketchfab-3.19.6",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 359976,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 124864,
+      "byteOffset": 359976,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 374592,
+      "byteOffset": 484840,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 249728,
+      "byteOffset": 859432,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 1109160,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/wood_stick_06_baseColor.jpeg"
+    },
+    {
+      "uri": "textures/wood_stick_06_normal.jpeg"
+    },
+    {
+      "uri": "textures/wood_stick_06_metallicRoughness.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "wood_stick_06",
+      "normalTexture": {
+        "index": 1,
+        "scale": 1,
+        "texCoord": 0
+      },
+      "occlusionTexture": {
+        "index": 2,
+        "strength": 1,
+        "texCoord": 0
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 0.7421875
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "wood_stick_06_wood_stick_06_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        0.99506980180740356,
+        0.074064023792743683,
+        0.065958850085735321,
+        0,
+        -0.099176861345767975,
+        0.74310553073883057,
+        0.66178405284881592,
+        0,
+        0,
+        -0.66506296396255493,
+        0.74678730964660645,
+        0,
+        0.44964894652366638,
+        0.87985193729400635,
+        -3.1088583469390869,
+        1
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "wood_stick_06.FBX"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        5
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        4.1584024429321289,
+        -4.3270778656005859,
+        -0.11463367938995361,
+        1
+      ],
+      "name": "wood_stick_06"
+    },
+    {
+      "mesh": 0,
+      "name": "wood_stick_06_wood_stick_06_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}
+
